@@ -1,0 +1,28 @@
+h1 {
+color: royalblue;
+text-align: center;
+font-weight: bold;
+font-family: cursive;
+}
+footer {
+text-align: center;
+font-style: oblique;
+color: blue;
+font-weight: bolder;
+}
+a:link {
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+color: blueviolet
+}
+a:hover {
+text-decoration: underline;
+color: red;
+font-weight: bold;
+}
+a:active {
+text-decoration: none;
+background-color: none;
+}
