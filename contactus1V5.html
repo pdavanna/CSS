@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            p {
+            text-align: center;
+            font-weight: bold;
+            }
+        </style>
+        <link href="restaurantStyles4.css" 
+        rel="stylesheet" 
+        type="text/css" />
+    </head>
+    <body>
+        <h1>Shinjuku Bistro</h1><hr>
+        <div class="container">
+        <ul class="nav nav-pills">
+        <a href="restaurantsiteV5.html" button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-home"></span>
+        </a></button>   
+        <li><a href="menuV5.html">Menu</a></li>
+        <li><a href="contactus1V5.html">Contact Us</a></li>
+        </ul>
+        </div>
+        <form action="#" method="POST">
+        <p>
+			Name: <input type="text" name="myname"/> 
+        </p>
+        <p>
+        	Email: <input type="text" name="myemail"/>
+        </p>
+        <p>
+        	Phone: <input type="text" name="myphone"/>
+        </p>
+        <p>
+        	Reason for Inquiry: <select name="Reason" style=width "100%;">
+            <option value="Catering">Catering</option>
+            <option value="PrivateParty">Private Party</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Other">Other</option>
+            </select>
+        </p>
+        <p>
+        	Additional Information: <textarea name="briefdescription">					</textarea>
+       	</p>
+        <p>
+        	Have you been to the restaurant? 
+            <input type="radio" name="answer" value="no" checked/>No
+            <input type="radio" name="answer" value="yes" />Yes
+        </p>
+        <p>
+        	Best days to contact you:
+            <input type="checkbox" name="myfreedays" value="Monday"/>M
+            <input type="checkbox" name="myfreedays" value="Tuesday"/>T
+            <input type="checkbox" name="myfreedays" value="Wednesday"/>W
+            <input type="checkbox" name="myfreedays" value="Thursday"/>Th
+            <input type="checkbox" name="myfreedays" value="Friday"/>F
+        </p>
+        <p>
+        	<input type="submit" id="submitbutton" value="Send Request"/>				<hr>
+        </p>
+    <footer>
+        <p>
+        	35 Hennepin Ave, Minneapolis, MN, 55414
+        </p>
+        <p>
+        	612-765-4321
+        </p>
+    </footer>
+    </body>
+</html>
